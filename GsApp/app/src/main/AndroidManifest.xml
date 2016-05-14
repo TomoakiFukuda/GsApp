@@ -22,7 +22,11 @@
         <activity
             android:name=".WebActivity"
             android:label="@string/title_activity_web" >
+            android:name=".UserActivity"
+            android:label="@string/title_activity_user" >
+
         </activity>
     </application>
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>
